@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 function LoadingScreenAnimation({ onComplete }) {
   const [text, setText] = useState("");
 
-  const fullText = "Glad to have you here!";
+  const fullText = "Hi there, I'm Siddhant.";
 
   useEffect(() => {
     let index = 0;
@@ -15,7 +15,7 @@ function LoadingScreenAnimation({ onComplete }) {
         clearInterval(interval);
         setTimeout(() => {
           onComplete();
-        }, 1000);
+        }, 300);
       }
     }, 100);
 

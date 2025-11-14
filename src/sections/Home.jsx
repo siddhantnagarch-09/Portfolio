@@ -1,4 +1,4 @@
-import profileImg from "../assets/profileImg.png";
+import profileImg from "../assets/me.jpg";
 import { FiDownload } from "react-icons/fi";
 import resume from "../assets/resume.pdf";
 
@@ -17,12 +17,12 @@ function Home() {
       </div>
       <div className="text-center font-mono z-10 px-4">
         <h1 className="text-4xl md:text-5xl lg:text-6xl lg:max-w[500px] font-semibold mb-6 px-1 bg-gradient-to-r from-teal-400 via-blue-500 to-indigo-600 bg-clip-text text-transparent leading-right ">
-          I am Ishaq Zinelabidine
+          I am Siddhant Nagarch
         </h1>
         <p className="text-gray-300 text-lg mb-8 max-w-lg mx-auto">
-          I am a frontend developer who loves creation interactive, scalable web
-          applications. My purpose is to build solutions that offer dynamic UI,
-          high performance and delightful UX.
+          Aspiring Software Developer | MCA Student | Tech Enthusiast Building
+          innovative solutions with modern web technologies and a passion for
+          clean code.
         </p>
         <div className="flex justify-center items-center space-x-4">
           <a
@@ -36,7 +36,7 @@ function Home() {
             href={resume}
             download
           >
-            <p>Resume </p>
+            <p className=" uppercase">Download CV </p>
             <span className="h-5 ml-3 text-2xl text-white">
               <FiDownload />
             </span>
